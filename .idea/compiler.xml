@@ -4,5 +4,11 @@
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SpringCoreExamples.main" target="1.8" />
+      <module name="SpringCoreExamples.test" target="1.8" />
+      <module name="SpringCoreXM.main" target="1.8" />
+      <module name="SpringCoreXM.test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -17,7 +17,8 @@
     </bean>
 
     <bean id="entityC" class="com.infopulse.beans.Second">
-        <property name="a" value = "200"/>
+<!--        <property name="a" value = "200"/>-->
+        <constructor-arg value="200"/>
     </bean>
 
     <util:list id="listEntities" value-type="com.infopulse.beans.Second">
